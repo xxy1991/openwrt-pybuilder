@@ -1,0 +1,5 @@
+{
+  "packages": ["luci-i18n-mwan3-zh-cn"],
+  "files": ["files/"],
+  "disabled_services": []
+}

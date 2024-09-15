@@ -1,0 +1,6 @@
+ServerCipherSet AES256-SHA
+Hub BRIDGE
+BridgeCreate BRIDGE /DEVICE:l2vpn /TAP:yes
+CascadeCreate ToSiteA /SERVER:192.168.96.2:5555 /HUB:SiteA /USERNAME:SiteB
+CascadePasswordSet ToSiteA /PASSWORD:Test123! /TYPE:standard
+CascadeOnline ToSiteA

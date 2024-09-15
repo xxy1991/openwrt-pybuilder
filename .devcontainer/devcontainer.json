@@ -1,0 +1,21 @@
+{
+    "name": "Python 3",
+    "image": "mcr.microsoft.com/devcontainers/python:1-3-bookworm",
+    "mounts": [
+        "type=volume,source=${localWorkspaceFolderBasename}-cache,target=${containerWorkspaceFolder}/.venv",
+    ],
+    "postCreateCommand": {
+        "venv1": "sudo chown 1000 .venv",
+        "venv2": "rm -rf .venv/*",
+        "venv3": "python -m venv .venv"
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {},
+            "extensions": [
+                "editorconfig.editorconfig",
+                "esbenp.prettier-vscode"
+            ]
+        }
+    }
+}

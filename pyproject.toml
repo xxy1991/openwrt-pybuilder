@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "openwrt-pybuilder"
+version = "0.3.4"
+authors = [{ name = "xxy", email = "xxy@lesscode.dev" }]
+description = "OpenWrt build tools by Python3"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Plugins",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+  "Operating System :: POSIX :: Linux",
+  "Intended Audience :: System Administrators",
+  "Topic :: Internet :: WWW/HTTP",
+  "Topic :: Security",
+  "Topic :: System :: Installation/Setup",
+  "Topic :: System :: Networking",
+  "Topic :: System :: Systems Administration",
+  "Topic :: Utilities",
+]
+dependencies = ["invoke"]
+
+[project.urls]
+"Homepage" = "https://github.com/xyalter/openwrt-pybuilder"
+"Bug Tracker" = "https://github.com/xyalter/openwrt-pybuilder/issues"

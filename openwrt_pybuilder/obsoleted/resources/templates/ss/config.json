@@ -1,0 +1,13 @@
+{
+  "packages": [
+    "luci-compat",
+    "luci-app-chinadns",
+    "luci-app-dns-forwarder",
+    "shadowsocks-libev",
+    "luci-app-shadowsocks",
+    "haveged",
+    "iptables-mod-tproxy"
+  ],
+  "files": ["files"],
+  "disabled_services": []
+}

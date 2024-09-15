@@ -1,0 +1,13 @@
+{
+  "packages": [
+    "shadowsocks-libev-ss-local",
+    "shadowsocks-libev-ss-redir",
+    "shadowsocks-libev-ss-tunnel",
+    "shadowsocks-libev-ss-server",
+    "shadowsocks-libev-ss-rules",
+    "shadowsocks-libev-config",
+    "luci-app-shadowsocks-libev"
+  ],
+  "files": [],
+  "disabled_services": []
+}

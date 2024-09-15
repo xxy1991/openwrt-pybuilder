@@ -1,0 +1,5 @@
+{
+  "packages": ["keepalived"],
+  "files": ["files/"],
+  "disabled_services": []
+}

@@ -1,0 +1,14 @@
+{
+  "packages": [
+    "kmod-tun",
+    "softethervpn-bridge",
+    "softethervpn-client",
+    "softethervpn-server"
+  ],
+  "files": ["files/", "custom-softether.sh"],
+  "disabled_services": [
+    "softethervpnbridge",
+    "softethervpnclient",
+    "softethervpnserver"
+  ]
+}

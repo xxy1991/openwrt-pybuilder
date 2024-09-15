@@ -1,0 +1,8 @@
+ServerCipherSet AES256-SHA
+HubDelete DEFAULT
+HubCreate SiteA /PASSWORD:Test123!
+Hub SiteA
+GroupCreate s2s /REALNAME:none /NOTE:none
+UserCreate SiteB /GROUP:s2s /REALNAME:none /NOTE:none
+UserPasswordSet SiteB /PASSWORD:Test123!
+BridgeCreate SiteA /DEVICE:l2vpn /TAP:yes

@@ -1,0 +1,6 @@
+--index https://pypi.python.org/simple
+
+-e .
+
+
+invoke

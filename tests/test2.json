@@ -1,0 +1,24 @@
+{
+  "version": "23.05.4",
+  "target": "x86",
+  "subtarget": "64",
+  "includes": ["softether"],
+  "packages": [
+    "luci",
+    "luci-compat",
+    "curl",
+    "-dnsmasq",
+    "dnsmasq-full",
+    "-ip-tiny",
+    "ip-full",
+    "kmod-tun",
+    "luci-ssl-nginx"
+  ],
+  "files": ["files/"],
+  "disabled_services": [
+    "softethervpnbridge",
+    "softethervpnclient",
+    "softethervpnserver",
+    "uhttpd"
+  ]
+}
